@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">cpu监视喵</string>
+    <string name="app_name">cpufreq</string>
     <string name="head_text">cpufreq</string>
     <string name="max_height_title">最大高度</string>
     <string name="current_height_format">高度: %d</string>
