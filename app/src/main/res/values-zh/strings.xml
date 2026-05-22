@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">监视喵</string>
+    <string name="head_text">cpufreq</string>
+    <string name="max_height_title">最大高度</string>
+    <string name="current_height_format">高度: %d</string>
+    <string name="min_height_label">40</string>
+    <string name="max_height_label">360</string>
+    <string name="scale_title">缩放</string>
+    <string name="rotation_title">旋转角度</string>
+    <string name="reverse_order_title">倒序排列核心</string>
+    <string name="start_button">启动</string>
+    <string name="stop_button">停止</string>
+</resources>
