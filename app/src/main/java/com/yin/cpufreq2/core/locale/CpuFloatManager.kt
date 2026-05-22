@@ -13,6 +13,8 @@ import android.view.Gravity
 import android.view.ViewTreeObserver
 import android.view.WindowManager
 import android.widget.Toast
+import androidx.compose.ui.res.stringResource
+import com.yin.cpufreq2.R
 import com.yin.cpufreq2.core.cpu.CpuUsageMonitor
 import com.yin.cpufreq2.feature.overlay.CpuBarView
 import java.util.concurrent.Executors
@@ -140,7 +142,7 @@ object CpuFloatManager {
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             context.startActivity(intent)
         }
-        Toast.makeText(context, "请开启悬浮窗权限后重新启动", Toast.LENGTH_SHORT).show()
+        Toast.makeText(context, context.getString(R.string.permission_request), Toast.LENGTH_SHORT).show()
     }
 
     fun update() {
