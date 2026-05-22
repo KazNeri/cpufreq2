@@ -11,4 +11,4 @@ An Android CPU monitoring tool that does not require Root or ADB permissions. By
 2. Real-time floating window: Supports displaying CPU usage and frequency in real time via a floating window that can be positioned anywhere on the screen.
 
 **Known Issues**  
-Under high CPU load scenarios, idle time approaches zero, which may cause the tool to incorrectly interpret the CPU as idle.能被误判为空载。
+Under high CPU load scenarios, idle time approaches zero, which may cause the tool to incorrectly interpret the CPU as idle.
