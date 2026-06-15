@@ -9,7 +9,7 @@ An Android CPU monitoring and benchmarking tool. No root or ADB required.
 
 Reads CPU usage by computing the delta between idle time and total running time. When `/proc/stat` is unavailable, it falls back to `time_in_state` and idle state statistics. Real-time data can be displayed as a floating overlay anywhere on screen.
 
-Additionally includes CPU stress tests, GPU/CPU benchmarks, microarchitecture probes, and the Dhrystone 2.1 integer benchmark with core-pinning support.
+Additionally includes Dhrystone 2.1 integer benchmark with core-pinning support.
 
 ## Features
 
